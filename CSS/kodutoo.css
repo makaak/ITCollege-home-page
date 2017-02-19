@@ -18,3 +18,8 @@
     text-align: center;
     text-decoration: none;
 }
+
+.praktikumid li a:hover{
+    background-color: black;
+    color: white;
+}

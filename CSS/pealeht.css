@@ -1,9 +1,40 @@
-.parem{}
-.vasak{}
-.keskmine{}
-.header {
-    background-color: aliceblue;
-    padding: 30px;
+/* Navbar : https://www.w3schools.com/css/css_navbar.asp */
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4dd2ff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar li{
+    float:left;
+    border-right: 1px solid #000;
+}
+
+.navbar li:last-child{
+    border-right: none;
+}
+
+.active {
+    background-color: #ffbb00;
+}
+.navbar li a{
+    display: block;
+    color: black;
     text-align: center;
-    font-size: 20px;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+
+
+.navbar li a:hover {
+    background-color:black;
+    color: white;
 }

@@ -2,4 +2,4 @@
 Minu IT Kolledži koduleht
 
 
-https://www.enos.itcollege.ee/~rraidma/
+https://enos.itcollege.ee/~rraidma/

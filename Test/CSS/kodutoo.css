@@ -1,0 +1,25 @@
+/* https://www.w3schools.com/css/css_navbar.asp */
+
+.praktikumid {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 38px;
+    left: 0;
+    width: 80px;
+    background-color: lightgrey;        
+}
+
+.praktikumid li a{
+    display: block;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.praktikumid li a:hover{
+    background-color: black;
+    color: white;
+}

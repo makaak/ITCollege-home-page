@@ -1,0 +1,19 @@
+body {
+	margin : 0px;
+	padding: 0px;
+}
+
+.container {
+	box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
+	/*max-width: 1000px; */
+	margin: 0 10% 0 10%;
+	position: relative;
+	padding: 0px;
+	overflow: auto;
+	z-index: -1;
+    text-align: justify;
+}
+
+.sisu{
+	padding: 60px 20px;
+}

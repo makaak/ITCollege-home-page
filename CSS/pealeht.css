@@ -40,3 +40,9 @@
     background-color:black;
     color: white;
 }
+
+.validator{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

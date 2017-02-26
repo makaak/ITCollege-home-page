@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Kodutöö 2 - Tabel</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                margin: 50px;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: .5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>Head filmid.</caption>
+            <tr>
+                <th>Pealkiri</th>
+                <th>Aasta</th>
+            </tr>
+            <tr>
+                <td>Braeveheart</td>
+                <td>1995</td>
+            </tr>
+            <tr>
+                <td>The Dark Knight</td>
+                <td>2008</td>
+            </tr>
+            <tr>
+                <td>Fight Club</td>
+                <td>1999</td>
+            </tr>
+            <tr>
+                <td>The Matrix</td>
+                <td>1999</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td colspan="3">.</td>
+                <td rowspan="3">...</td>
+            </tr>
+            <tr>
+                <td rowspan="3">...</td>
+                <td>..</td>
+                <td>..</td>
+            </tr>
+            <tr>
+                <td>..</td>
+                <td>..</td>
+            </tr>
+            <tr>
+                <td colspan="3">.</td>
+            </tr>
+        </table>
+    </body>
+</html>

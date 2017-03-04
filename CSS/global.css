@@ -1,0 +1,78 @@
+body {
+	margin : 0px;
+	padding: 0px;
+}
+
+.container {
+	box-shadow: 0 0 10px 3px rgba(0, 0, 0, 1);
+	padding: 0px;
+	overflow: auto;
+    z-index: -1;
+    text-align: justify;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    right: 10%;
+    left: 10%;
+}
+
+
+/* Navbar : https://www.w3schools.com/css/css_navbar.asp */
+
+.navbar {
+    list-style-type: none;
+	padding: 0;
+	margin: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.3);
+    position: fixed;
+    left: 10%;
+    right: 10%;
+	opacity: 1;
+    box-shadow: 0 0px 10px 3px rgba(0, 0, 0, 1);
+}
+
+.navbar li{
+    float:left; 
+    border-right: 1px solid #000;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.navbar li:last-child{
+    border-right: none;
+    float: right;
+    background-color: red;
+}
+
+.active {
+    background-color: rgba(0,0,0,1);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    
+}
+.navbar li a:not(.active){
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+
+
+.navbar li a:hover:not(.active) {
+    background-color: rgba(0,0,0, .8);
+    color: white;
+    
+}
+
+.validator{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

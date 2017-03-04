@@ -2,19 +2,23 @@
 
 .praktikumid {
     list-style-type: none;
-    margin: 0;
+    margin: 60px auto;
     padding: 0;
-    position: fixed;
-    top: 38px;
-    left: 0;
-    width: 80px;
-    background-color: lightgrey;        
+    width: 50%;        
+}
+
+.praktikumid li {
+    border-bottom: 1px solid #000;
+}
+
+.praktikumid li:last-child {
+    border-bottom: none;
 }
 
 .praktikumid li a{
     display: block;
     color: black;
-    padding: 3px;
+    padding: 6px;
     text-align: center;
     text-decoration: none;
 }

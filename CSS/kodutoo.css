@@ -21,6 +21,7 @@
     padding: 6px;
     text-align: center;
     text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 .praktikumid li a:hover{

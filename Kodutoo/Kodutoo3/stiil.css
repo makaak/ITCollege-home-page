@@ -1,0 +1,75 @@
+#keha p {
+    color:red;
+}
+
+div:not(.sisu){
+    width: 300px;
+    text-align: center;
+}
+
+li {
+    width: 90%;
+    background-color: #c0c0c0;
+    list-style: none;
+}
+
+div:not(.sisu) > p {
+    background-color: gray;
+}
+
+#keha{
+    background-color: gray;
+}
+
+#pea span{
+    background-color: #c0c0c0;
+    font-size: 30px;
+}
+
+.jalg{
+    background-color: gray;
+    color: white;
+}
+
+.green {
+    color: green;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.dg_bck {
+    background-color: darkgreen;
+}
+
+.size_2x {
+    font-size: 2rem;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.border_yellow {
+    border: 3px solid #000;
+    background-color: yellow;
+}
+
+.round_dash {
+    border: 2px dashed #000;
+    border-radius: 15px;
+}
+
+.italic_center {
+    font-style: italic;
+    text-align: center;
+}
+
+.cursor {
+    cursor: crosshair;
+}
+
+a {
+    display: block;
+}

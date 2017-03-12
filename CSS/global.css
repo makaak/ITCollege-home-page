@@ -9,8 +9,8 @@ body {
     z-index: -1;
     text-align: justify;
     position: absolute;
-    top: 0px;
     bottom: 0;
+    top: 0;
     right: 10%;
     left: 10%;
 }

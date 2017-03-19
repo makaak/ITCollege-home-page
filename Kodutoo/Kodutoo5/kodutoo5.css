@@ -1,9 +1,10 @@
+/*target*/
 .main{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     position: fixed;
-    bottom: 25%;
-    right: 25%;
+    bottom: 200px;
+    right: 200px;
 }
 
 .sub{
@@ -15,7 +16,8 @@
     height: 100%;
     width: 100%;
     background: white;
-    border: 3px solid black;
+    box-shadow: 0 0 0 2px #000;
+    
 }
 
 .sub:nth-child(2){
@@ -24,7 +26,7 @@
     background: red;
     left: 7.5%;
     top: 7.5%;
-    border: 1px solid black;
+    box-shadow: 0 0 0 1px #000;
 }
 
 .sub:nth-child(3){
@@ -33,7 +35,7 @@
     background: white;
     left: 15%;
     top: 15%;
-    border: 1px solid black;
+    box-shadow: 0 0 0 1px #000;
 }
 
 .sub:nth-child(4){
@@ -42,7 +44,7 @@
     background: red;
     left: 22.5%;
     top: 22.5%;
-    border: 1px solid black;
+    box-shadow: 0 0 0 1px #000;
 }
 
 .sub:nth-child(5){
@@ -51,7 +53,7 @@
     background: white;
     left: 30%;
     top: 30%;
-    border: 1px solid black;
+    box-shadow: 0 0 0 1px #000;
 }
 
 .sub:nth-child(6){
@@ -60,7 +62,7 @@
     background: red;
     left: 37.5%;
     top: 37.5%;
-    border: 1px solid black;
+    box-shadow: 0 0 0 1px #000;
 }
 
 .taust{
@@ -69,7 +71,8 @@
     left: 0;
     width: 100%;
 }
-
+/*target*/
+/*abakus*/
 .bead{
     width: 50px;
     height: 50px;
@@ -77,6 +80,7 @@
     border-radius: 50%;
     box-shadow: 0px -11px 23px -3px black inset;
     margin-top: -25px;
+    text-align: center;
 }
 
 .row{
@@ -97,6 +101,7 @@
 .right{
     float: right;
 }
+/*abakus*/
 
 body > a{
     display: block;
